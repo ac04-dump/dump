@@ -1,0 +1,44 @@
+
+:root {
+  font-size: 20px;
+  font-family: sans-serif;
+  }
+
+body {
+  background-color: #6147ff;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.main-container {
+  border: 1px solid white;
+  margin: 10% 10% 10% 10%;
+  padding: 50px;
+  background-color: #0e0061;
+  color: white;
+  border-radius: 20px;
+}
+
+.upload-btn {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #47ff4a;
+  color: black;
+}
+
+.upload-label {
+  background-color: #47ecff;
+  padding: 20px;
+  border-radius: 20px;
+  color: black;
+  border: 1px solid black;
+}
+
+h1 > a {
+  background-color: #47ff4a;
+  color: black;
+  text-decoration: none;
+}

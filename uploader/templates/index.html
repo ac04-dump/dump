@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/static/main.css" />
+    <script src="/static/confirm.js" defer></script>
+  </head>
+  <body>
+      <h1>{{ heading }}<a href="/">Main page</a></h1>
+    <form
+      action="/upload"
+      class="main-container"
+      method="post"
+      enctype="multipart/form-data"
+      onsubmit="return confirmForm()"
+    >
+      <h2>Upload a file to {{ hostname }}</h2>
+      <label for="upload" class="upload-label btn">
+        <input type="file" multiple id="upload" name="upload" class="btn" />
+      </label>
+      <button type="submit" class="upload-btn btn">Upload</button>
+    </form>
+  </body>
+</html>
